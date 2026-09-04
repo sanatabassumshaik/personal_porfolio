@@ -1,137 +1,467 @@
-<section class="contact-section"
-    aria-labelledby="contact-heading">
+<!DOCTYPE html>
+<html lang="en">
 
-    <div class="section-heading">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <p class="section-label">
-            CONTACT
-        </p>
+    <meta name="description"
+        content="Contact Shaik Sana Tabassum - Computer Science Engineering student and technology enthusiast.">
 
-        <h1 id="contact-heading">
-            Let's Connect
-        </h1>
+    <title>Contact | Shaik Sana Tabassum</title>
 
-        <p>
-            Whether it's a project, collaboration, internship opportunity
-            or simply a conversation about technology, feel free to reach
-            out.
-        </p>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-    </div>
+<body>
+
+    <!-- Skip navigation -->
+    <a href="#main-content" class="skip-link">
+        Skip to main content
+    </a>
 
 
-    <div class="contact-grid">
+    <!-- HEADER -->
+    <header class="site-header">
 
-        <div>
+        <nav class="navbar" aria-label="Main navigation">
 
-            <h2>
-                Get In Touch
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                Sana<span>.</span>
+            </a>
+
+
+            <!-- Navigation controls -->
+            <div class="nav-controls">
+
+                <button
+                    class="menu-toggle"
+                    type="button"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false">
+                    ☰
+                </button>
+
+
+                <button
+                    class="theme-toggle"
+                    type="button"
+                    aria-label="Switch to dark mode"
+                    title="Switch to dark mode"
+                    aria-pressed="false">
+                    🌙
+                </button>
+
+            </div>
+
+
+            <!-- Navigation links -->
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="projects.html">
+                        Projects
+                    </a>
+                </li>
+
+                <li>
+                    <a href="resume.html">
+                        Resume
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html" aria-current="page">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main id="main-content">
+
+        <!-- PAGE INTRO -->
+        <section class="hero" aria-labelledby="contact-heading">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    LET'S CONNECT
+                </p>
+
+                <h1 id="contact-heading">
+                    Contact Me
+                </h1>
+
+                <p class="hero-description">
+                    Have an idea, opportunity or project you'd like to
+                    discuss? Feel free to get in touch.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section class="section" aria-labelledby="contact-form-title">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    GET IN TOUCH
+                </p>
+
+                <h2 id="contact-form-title">
+                    Let's Start a Conversation
+                </h2>
+
+            </div>
+
+
+            <div class="contact-layout">
+
+                <!-- CONTACT INFORMATION -->
+                <aside class="contact-info"
+                    aria-labelledby="contact-info-title">
+
+                    <h3 id="contact-info-title">
+                        Contact Information
+                    </h3>
+
+                    <p>
+                        I'm always open to connecting with students,
+                        developers, mentors, entrepreneurs and people
+                        interested in technology.
+                    </p>
+
+
+                    <div class="contact-details">
+
+                        <div class="contact-item">
+
+                            <span
+                                class="contact-label">
+                                Email
+                            </span>
+
+                            <a
+                                href="mailto:sanatabassumshaik55@gmail.com">
+                                sanatabassumshaik55@gmail.com
+                            </a>
+
+                        </div>
+
+
+                        <div class="contact-item">
+
+                            <span
+                                class="contact-label">
+                                LinkedIn
+                            </span>
+
+                            <a
+                                href="https://www.linkedin.com/in/shaik-sana-tabassum-b547343a9"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Connect on LinkedIn
+                            </a>
+
+                        </div>
+
+
+                        <div class="contact-item">
+
+                            <span
+                                class="contact-label">
+                                GitHub
+                            </span>
+
+                            <a
+                                href="https://github.com/sanatabassumshaik"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                View my GitHub
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </aside>
+
+
+                <!-- CONTACT FORM -->
+                <div class="contact-form-wrapper">
+
+                    <form
+                        action="#"
+                        method="post"
+                        aria-labelledby="contact-form-title">
+
+                        <div class="form-group">
+
+                            <label for="name">
+                                Full Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                autocomplete="name"
+                                placeholder="Enter your name"
+                                required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Email Address
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                autocomplete="email"
+                                placeholder="Enter your email"
+                                required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="subject">
+                                Subject
+                            </label>
+
+                            <input
+                                type="text"
+                                id="subject"
+                                name="subject"
+                                placeholder="What would you like to discuss?"
+                                required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="message">
+                                Message
+                            </label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="7"
+                                placeholder="Write your message here..."
+                                required></textarea>
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="button">
+                            Send Message
+                        </button>
+
+
+                        <!-- Accessible form status -->
+                        <p
+                            id="form-status"
+                            class="form-status"
+                            aria-live="polite">
+                        </p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- OPPORTUNITIES -->
+        <section class="section"
+            aria-labelledby="opportunities-title">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    OPPORTUNITIES
+                </p>
+
+                <h2 id="opportunities-title">
+                    Areas I'm Open To
+                </h2>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+                <article class="skill-card">
+
+                    <h3>
+                        Collaboration
+                    </h3>
+
+                    <p>
+                        Student projects, development teams and
+                        technology-focused collaborations.
+                    </p>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <h3>
+                        Internships
+                    </h3>
+
+                    <p>
+                        Opportunities to gain practical experience in
+                        software development, AI and technology.
+                    </p>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <h3>
+                        Projects
+                    </h3>
+
+                    <p>
+                        Building useful projects and experimenting with
+                        new technology ideas.
+                    </p>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <h3>
+                        Innovation
+                    </h3>
+
+                    <p>
+                        Startup ideas, entrepreneurship and technology
+                        innovation opportunities.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CTA -->
+        <section class="cta" aria-labelledby="cta-title">
+
+            <h2 id="cta-title">
+                Let's Build Something Together
             </h2>
 
             <p>
-                I am always open to learning, collaborating and exploring
-                new opportunities.
+                Whether it's a project, collaboration, internship
+                opportunity or simply a conversation about technology,
+                I'd love to hear from you.
             </p>
 
-            <address>
+            <a
+                href="mailto:sanatabassumshaik55@gmail.com"
+                class="button">
+                Email Me
+            </a>
 
-                <p>
-                    <strong>Email</strong><br>
+        </section>
 
-                    <a href="mailto:sanatabassumshaik55@gmail.com">
-                        sanatabassumshaik55@gmail.com
-                    </a>
-                </p>
+    </main>
 
-                <p>
-                    <strong>LinkedIn</strong><br>
 
-                    <a href="https://www.linkedin.com/in/shaik-sana-tabassum-b547343a9"
-                        target="_blank"
-                        rel="noopener noreferrer">
-                        Connect on LinkedIn
-                    </a>
-                </p>
+    <!-- FOOTER -->
+    <footer class="site-footer">
 
-                <p>
-                    <strong>GitHub</strong><br>
+        <div>
 
-                    <a href="https://github.com/sanatabassumshaik"
-                        target="_blank"
-                        rel="noopener noreferrer">
-                        View my GitHub
-                    </a>
-                </p>
+            <p>
+                <strong>
+                    Shaik Sana Tabassum
+                </strong>
+            </p>
 
-            </address>
+            <p>
+                Computer Science Engineering Student
+            </p>
 
         </div>
 
 
-        <form action="#" method="post">
+        <div>
 
-            <div class="form-group">
+            <a
+                href="https://www.linkedin.com/in/shaik-sana-tabassum-b547343a9"
+                target="_blank"
+                rel="noopener noreferrer">
+                LinkedIn
+            </a>
 
-                <label for="name">
-                    Full Name
-                </label>
+            <a
+                href="https://github.com/sanatabassumshaik"
+                target="_blank"
+                rel="noopener noreferrer">
+                GitHub
+            </a>
 
-                <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    autocomplete="name"
-                    required>
+            <a
+                href="mailto:sanatabassumshaik55@gmail.com">
+                Email
+            </a>
 
-            </div>
-
-
-            <div class="form-group">
-
-                <label for="email">
-                    Email Address
-                </label>
-
-                <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    autocomplete="email"
-                    required>
-
-            </div>
+        </div>
 
 
-            <div class="form-group">
+        <p class="copyright">
+            © 2026 Shaik Sana Tabassum. All rights reserved.
+        </p>
 
-                <label for="message">
-                    Message
-                </label>
-
-                <textarea
-                    id="message"
-                    name="message"
-                    rows="6"
-                    required></textarea>
-
-            </div>
+    </footer>
 
 
-            <button type="submit" class="button">
-                Send Message
-            </button>
-
-            <p id="form-status"
-                class="form-status"
-                aria-live="polite">
-            </p>
-
-        </form>
-
-    </div>
-
-</section>
-<script src="js/script.js"></script>
+    <!-- JAVASCRIPT -->
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
