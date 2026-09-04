@@ -2,49 +2,73 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-        content="Explore projects by Shaik Sana Tabassum including Rural Light Initiative and MediAI.">
+        content="Projects by Shaik Sana Tabassum - Web development, AI and technology projects.">
 
     <title>Projects | Shaik Sana Tabassum</title>
 
     <link rel="stylesheet" href="css/style.css">
-
 </head>
-
 
 <body>
 
+    <!-- Skip navigation -->
     <a href="#main-content" class="skip-link">
         Skip to main content
     </a>
 
 
+    <!-- HEADER -->
     <header class="site-header">
 
         <nav class="navbar" aria-label="Main navigation">
 
+            <!-- Logo -->
             <a href="index.html" class="logo">
                 Sana<span>.</span>
             </a>
 
-            <button class="menu-toggle"
-                aria-label="Open navigation menu"
-                aria-expanded="false">
-                ☰
-            </button>
 
+            <!-- Navigation controls -->
+            <div class="nav-controls">
+
+                <button
+                    class="menu-toggle"
+                    type="button"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false">
+                    ☰
+                </button>
+
+
+                <button
+                    class="theme-toggle"
+                    type="button"
+                    aria-label="Switch to dark mode"
+                    title="Switch to dark mode"
+                    aria-pressed="false">
+                    🌙
+                </button>
+
+            </div>
+
+
+            <!-- Navigation links -->
             <ul class="nav-links">
 
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html">
+                        Home
+                    </a>
                 </li>
 
                 <li>
-                    <a href="about.html">About</a>
+                    <a href="about.html">
+                        About
+                    </a>
                 </li>
 
                 <li>
@@ -54,11 +78,15 @@
                 </li>
 
                 <li>
-                    <a href="resume.html">Resume</a>
+                    <a href="resume.html">
+                        Resume
+                    </a>
                 </li>
 
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.html">
+                        Contact
+                    </a>
                 </li>
 
             </ul>
@@ -68,221 +96,387 @@
     </header>
 
 
+    <!-- MAIN CONTENT -->
     <main id="main-content">
 
-        <header class="page-header">
+        <!-- PAGE INTRO -->
+        <section class="hero" aria-labelledby="projects-heading">
 
-            <p class="section-label">
-                MY WORK
-            </p>
+            <div class="hero-content">
 
-            <h1>
-                Projects
-            </h1>
-
-            <p>
-                Projects where I explore technology, solve problems
-                and turn ideas into practical solutions.
-            </p>
-
-        </header>
-
-
-        <section class="project-details"
-            aria-labelledby="rural-title">
-
-            <article>
-
-                <span class="project-number">
-                    01
-                </span>
-
-                <h2 id="rural-title">
-                    Rural Light Initiative
-                </h2>
-
-                <p class="project-intro">
-                    A technology-driven web project focused on creating
-                    awareness and presenting solutions for challenges
-                    faced by rural communities.
+                <p class="eyebrow">
+                    MY WORK
                 </p>
 
-                <h3>
-                    Problem
-                </h3>
+                <h1 id="projects-heading">
+                    Projects
+                </h1>
 
-                <p>
-                    Rural communities can face difficulties in accessing
-                    information, resources and technology-driven solutions.
-                    This project explores how a web platform can organize
-                    information and present practical solutions in an
-                    accessible way.
+                <p class="hero-description">
+                    A collection of projects where I explore web development,
+                    artificial intelligence, problem solving and technology
+                    to create practical solutions.
                 </p>
 
-                <h3>
-                    Solution
-                </h3>
-
-                <p>
-                    The Rural Light Initiative provides a structured
-                    web platform containing information about the problem,
-                    possible solutions, ideas, reports and other useful
-                    sections.
-                </p>
-
-                <h3>
-                    Technologies Used
-                </h3>
-
-                <div class="tech-list">
-
-                    <span>HTML5</span>
-                    <span>CSS3</span>
-                    <span>JavaScript</span>
-
-                </div>
-
-            </article>
+            </div>
 
         </section>
 
 
-        <section class="project-details featured-project"
-            aria-labelledby="mediai-title">
+        <!-- PROJECTS -->
+        <section class="section" aria-labelledby="project-list-title">
 
-            <article>
+            <div class="section-heading">
 
-                <span class="project-number">
-                    02
-                </span>
+                <p class="section-label">
+                    FEATURED WORK
+                </p>
 
-                <h2 id="mediai-title">
-                    MediAI
+                <h2 id="project-list-title">
+                    Things I've Built
                 </h2>
 
-                <p class="project-intro">
-                    AI-powered Smart Healthcare and Hospital Management
-                    Platform.
+            </div>
+
+
+            <div class="projects-grid">
+
+                <!-- PROJECT 01 -->
+                <article class="project-card">
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                    <p class="experience-tag">
+                        WEB DEVELOPMENT
+                    </p>
+
+                    <h3>
+                        Rural Light Initiative
+                    </h3>
+
+                    <p>
+                        A web-based initiative focused on addressing
+                        challenges faced by rural communities through
+                        technology. The project provides a structured
+                        platform to present problems, proposed solutions,
+                        ideas and useful information.
+                    </p>
+
+
+                    <h4>
+                        Key Focus
+                    </h4>
+
+                    <ul>
+                        <li>
+                            Presenting rural community challenges
+                        </li>
+
+                        <li>
+                            Providing technology-based solutions
+                        </li>
+
+                        <li>
+                            Organizing ideas and information
+                        </li>
+
+                        <li>
+                            Creating an accessible web interface
+                        </li>
+                    </ul>
+
+
+                    <div class="tech-list">
+
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+
+                    <a
+                        href="projects.html"
+                        class="text-link">
+                        Project Details →
+                    </a>
+
+                </article>
+
+
+                <!-- PROJECT 02 -->
+                <article class="project-card featured-project">
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                    <p class="experience-tag">
+                        AI & HEALTHCARE
+                    </p>
+
+                    <h3>
+                        MediAI
+                    </h3>
+
+                    <p>
+                        An AI-powered smart healthcare and hospital management
+                        platform designed to help users understand symptoms,
+                        assess urgency, identify suitable specialists and
+                        discover suitable hospitals.
+                    </p>
+
+
+                    <h4>
+                        Key Features
+                    </h4>
+
+                    <ul>
+                        <li>
+                            Symptom input through text or voice
+                        </li>
+
+                        <li>
+                            AI-assisted disease prediction
+                        </li>
+
+                        <li>
+                            Emergency and urgency assessment
+                        </li>
+
+                        <li>
+                            Specialist recommendations
+                        </li>
+
+                        <li>
+                            Hospital ranking and discovery
+                        </li>
+
+                        <li>
+                            Appointment management
+                        </li>
+
+                    </ul>
+
+
+                    <div class="tech-list">
+
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>AI</span>
+
+                    </div>
+
+
+                    <a
+                        href="projects.html"
+                        class="text-link">
+                        Project Details →
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECT DEVELOPMENT APPROACH -->
+        <section class="section" aria-labelledby="approach-title">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    MY APPROACH
                 </p>
 
-                <h3>
-                    Problem
-                </h3>
+                <h2 id="approach-title">
+                    How I Build Projects
+                </h2>
 
-                <p>
-                    Patients may struggle to determine how serious their
-                    symptoms are, which specialist they should consult and
-                    which hospital is most suitable. Appointment delays,
-                    waiting times and lack of personalized guidance can
-                    further complicate the healthcare experience.
+            </div>
+
+
+            <div class="skills-grid">
+
+                <article class="skill-card">
+
+                    <h3>
+                        01. Identify
+                    </h3>
+
+                    <p>
+                        I start by understanding a real-world problem and
+                        identifying the people who could benefit from a
+                        technology-based solution.
+                    </p>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <h3>
+                        02. Plan
+                    </h3>
+
+                    <p>
+                        I break the idea into features, pages, technologies
+                        and smaller development tasks before starting
+                        implementation.
+                    </p>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <h3>
+                        03. Build
+                    </h3>
+
+                    <p>
+                        I develop the project step by step while focusing on
+                        clean structure, responsive design, accessibility
+                        and practical functionality.
+                    </p>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <h3>
+                        04. Improve
+                    </h3>
+
+                    <p>
+                        I test the project, identify areas for improvement
+                        and continue learning new technologies to make the
+                        solution better.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- FUTURE PROJECTS -->
+        <section class="section" aria-labelledby="future-title">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    FUTURE
                 </p>
 
-                <h3>
-                    Proposed Solution
-                </h3>
+                <h2 id="future-title">
+                    More Projects Coming
+                </h2>
 
-                <p>
-                    MediAI is designed as an intelligent healthcare platform
-                    where users can create a health profile and enter
-                    symptoms using text or voice.
-                </p>
+            </div>
 
-                <p>
-                    The platform can analyze symptoms, provide a probable
-                    disease assessment, categorize urgency and recommend
-                    an appropriate specialist.
-                </p>
 
-                <p>
-                    It can also rank hospitals based on specialty,
-                    doctor availability, waiting time, ratings, distance
-                    and consultation cost.
-                </p>
+            <div class="about-preview">
 
-                <h3>
-                    Planned Features
-                </h3>
+                <div>
 
-                <ul class="feature-list">
+                    <p>
+                        I am continuously learning Python, web development,
+                        artificial intelligence and other technologies.
+                    </p>
 
-                    <li>
-                        AI-based symptom analysis
-                    </li>
-
-                    <li>
-                        Emergency, urgent, normal and home-care
-                        categorization
-                    </li>
-
-                    <li>
-                        Specialist recommendation
-                    </li>
-
-                    <li>
-                        Hospital recommendation
-                    </li>
-
-                    <li>
-                        Appointment booking
-                    </li>
-
-                    <li>
-                        Queue waiting-time prediction
-                    </li>
-
-                    <li>
-                        Medicine reminders
-                    </li>
-
-                    <li>
-                        Digital health records
-                    </li>
-
-                    <li>
-                        AI health assistant
-                    </li>
-
-                    <li>
-                        Wearable device integration
-                    </li>
-
-                </ul>
-
-                <h3>
-                    Technologies
-                </h3>
-
-                <div class="tech-list">
-
-                    <span>HTML5</span>
-                    <span>CSS3</span>
-                    <span>JavaScript</span>
-                    <span>AI</span>
+                    <p>
+                        As I develop new skills, I plan to build more
+                        practical projects and publish them on GitHub as
+                        part of my developer portfolio.
+                    </p>
 
                 </div>
 
-            </article>
+
+                <aside class="quick-stats"
+                    aria-label="Project development highlights">
+
+                    <div>
+                        <strong>2+</strong>
+                        <span>Current Projects</span>
+                    </div>
+
+                    <div>
+                        <strong>3</strong>
+                        <span>Core Web Technologies</span>
+                    </div>
+
+                    <div>
+                        <strong>∞</strong>
+                        <span>Ideas to Build</span>
+                    </div>
+
+                </aside>
+
+            </div>
+
+        </section>
+
+
+        <!-- CTA -->
+        <section class="cta" aria-labelledby="cta-title">
+
+            <h2 id="cta-title">
+                Have an Idea?
+            </h2>
+
+            <p>
+                I'm always interested in learning, building and exploring
+                new technology ideas.
+            </p>
+
+            <a
+                href="contact.html"
+                class="button">
+                Let's Connect
+            </a>
 
         </section>
 
     </main>
 
 
+    <!-- FOOTER -->
     <footer class="site-footer">
-
-        <p>
-            © 2026 Shaik Sana Tabassum.
-        </p>
 
         <div>
 
-            <a href="https://www.linkedin.com/in/shaik-sana-tabassum-b547343a9"
+            <p>
+                <strong>
+                    Shaik Sana Tabassum
+                </strong>
+            </p>
+
+            <p>
+                Computer Science Engineering Student
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <a
+                href="https://www.linkedin.com/in/shaik-sana-tabassum-b547343a9"
                 target="_blank"
                 rel="noopener noreferrer">
                 LinkedIn
             </a>
 
-            <a href="https://github.com/sanatabassumshaik"
+            <a
+                href="https://github.com/sanatabassumshaik"
                 target="_blank"
                 rel="noopener noreferrer">
                 GitHub
@@ -294,9 +488,15 @@
 
         </div>
 
+
+        <p class="copyright">
+            © 2026 Shaik Sana Tabassum. All rights reserved.
+        </p>
+
     </footer>
 
 
+    <!-- JAVASCRIPT -->
     <script src="js/script.js"></script>
 
 </body>
