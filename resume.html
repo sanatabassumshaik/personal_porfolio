@@ -2,42 +2,80 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-          content="Resume of Shaik Sana Tabassum.">
+        content="Resume of Shaik Sana Tabassum - Computer Science Engineering student, developer and technology enthusiast.">
 
     <title>Resume | Shaik Sana Tabassum</title>
 
     <link rel="stylesheet" href="css/style.css">
-
 </head>
-
 
 <body>
 
+    <!-- Skip navigation -->
     <a href="#main-content" class="skip-link">
         Skip to main content
     </a>
 
 
-    <header>
+    <!-- HEADER -->
+    <header class="site-header">
 
-        <nav aria-label="Main navigation">
+        <nav class="navbar" aria-label="Main navigation">
 
+            <!-- Logo -->
             <a href="index.html" class="logo">
-                Sana Tabassum
+                Sana<span>.</span>
             </a>
 
-            <ul>
 
-                <li><a href="index.html">Home</a></li>
+            <!-- Navigation controls -->
+            <div class="nav-controls">
 
-                <li><a href="about.html">About</a></li>
+                <button
+                    class="menu-toggle"
+                    type="button"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false">
+                    ☰
+                </button>
 
-                <li><a href="projects.html">Projects</a></li>
+
+                <button
+                    class="theme-toggle"
+                    type="button"
+                    aria-label="Switch to dark mode"
+                    title="Switch to dark mode"
+                    aria-pressed="false">
+                    🌙
+                </button>
+
+            </div>
+
+
+            <!-- Navigation links -->
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="projects.html">
+                        Projects
+                    </a>
+                </li>
 
                 <li>
                     <a href="resume.html" aria-current="page">
@@ -45,7 +83,11 @@
                     </a>
                 </li>
 
-                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                </li>
 
             </ul>
 
@@ -54,115 +96,676 @@
     </header>
 
 
+    <!-- MAIN CONTENT -->
     <main id="main-content">
 
-        <header class="page-header">
+        <!-- PAGE INTRO -->
+        <section class="hero" aria-labelledby="resume-heading">
 
-            <h1>My Resume</h1>
+            <div class="hero-content">
 
-            <p>
-                Education, skills, certifications and experience.
-            </p>
-
-        </header>
-
-
-        <section aria-labelledby="profile-heading">
-
-            <h2 id="profile-heading">Profile</h2>
-
-            <p>
-                Computer Science Engineering student passionate about
-                software development, web technologies, artificial
-                intelligence and innovation.
-            </p>
-
-        </section>
-
-
-        <section aria-labelledby="skills-heading">
-
-            <h2 id="skills-heading">Technical Skills</h2>
-
-            <ul>
-                <li>Python</li>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>Web Development</li>
-                <li>Git & GitHub</li>
-            </ul>
-
-        </section>
-
-
-        <section aria-labelledby="soft-skills-heading">
-
-            <h2 id="soft-skills-heading">Soft Skills</h2>
-
-            <ul>
-                <li>Communication</li>
-                <li>Leadership</li>
-                <li>Teamwork</li>
-                <li>Time Management</li>
-                <li>Problem Solving</li>
-            </ul>
-
-        </section>
-
-
-        <section aria-labelledby="education-heading">
-
-            <h2 id="education-heading">Education</h2>
-
-            <article>
-
-                <h3>Computer Science Engineering</h3>
-
-                <p>
-                    Santhiram Engineering College
+                <p class="eyebrow">
+                    MY PROFESSIONAL PROFILE
                 </p>
 
-                <p>
-                    Expected Graduation: 2029
+                <h1 id="resume-heading">
+                    Resume
+                </h1>
+
+                <p class="hero-description">
+                    Explore my academic background, technical skills,
+                    projects, certifications and leadership experience.
                 </p>
 
-                <p>
-                    First Year CGPA: 8.98
-                </p>
+                <div class="hero-buttons">
 
-            </article>
+                    <a
+                        href="documents/resume.pdf"
+                        class="button"
+                        download>
+                        Download My Resume
+                    </a>
+
+                </div>
+
+            </div>
 
         </section>
 
 
-        <section aria-labelledby="certifications-heading">
+        <!-- PROFILE SUMMARY -->
+        <section class="section" aria-labelledby="summary-title">
 
-            <h2 id="certifications-heading">
-                Certifications
+            <div class="section-heading">
+
+                <p class="section-label">
+                    PROFILE
+                </p>
+
+                <h2 id="summary-title">
+                    Professional Summary
+                </h2>
+
+            </div>
+
+
+            <div class="about-preview">
+
+                <div>
+
+                    <p>
+                        I am a motivated second-year B.Tech Computer Science
+                        Engineering student with an interest in programming,
+                        artificial intelligence, web development and
+                        problem solving.
+                    </p>
+
+                    <p>
+                        I enjoy learning through practical projects,
+                        certifications, technology communities and
+                        leadership opportunities.
+                    </p>
+
+                    <p>
+                        My goal is to build strong technical foundations
+                        while developing innovative solutions to real-world
+                        problems.
+                    </p>
+
+                </div>
+
+
+                <aside
+                    class="quick-stats"
+                    aria-label="Academic highlights">
+
+                    <div>
+                        <strong>8.98</strong>
+                        <span>First Year CGPA</span>
+                    </div>
+
+                    <div>
+                        <strong>2029</strong>
+                        <span>Expected Graduation</span>
+                    </div>
+
+                    <div>
+                        <strong>CSE</strong>
+                        <span>Degree</span>
+                    </div>
+
+                </aside>
+
+            </div>
+
+        </section>
+
+
+        <!-- EDUCATION -->
+        <section class="section" aria-labelledby="education-title">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    EDUCATION
+                </p>
+
+                <h2 id="education-title">
+                    Academic Background
+                </h2>
+
+            </div>
+
+
+            <div class="experience-grid">
+
+                <article class="experience-card">
+
+                    <p class="experience-tag">
+                        B.TECH — COMPUTER SCIENCE ENGINEERING
+                    </p>
+
+                    <h3>
+                        Santhiram Engineering College
+                    </h3>
+
+                    <p>
+                        Nandyal, Andhra Pradesh
+                    </p>
+
+                    <p>
+                        Currently pursuing B.Tech in Computer Science
+                        Engineering.
+                    </p>
+
+                    <p>
+                        <strong>First Year CGPA:</strong> 8.98
+                    </p>
+
+                    <p>
+                        <strong>Expected Graduation:</strong> 2029
+                    </p>
+
+                </article>
+
+
+                <article class="experience-card">
+
+                    <p class="experience-tag">
+                        ACADEMIC FOCUS
+                    </p>
+
+                    <h3>
+                        Core Areas
+                    </h3>
+
+                    <p>
+                        Programming, web development, artificial
+                        intelligence, problem solving, data and emerging
+                        technologies.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- TECHNICAL SKILLS -->
+        <section class="section" aria-labelledby="skills-title">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    TECHNICAL SKILLS
+                </p>
+
+                <h2 id="skills-title">
+                    Technologies & Tools
+                </h2>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+                <article class="skill-card">
+
+                    <h3>
+                        Programming
+                    </h3>
+
+                    <ul>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>Java</li>
+                    </ul>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <h3>
+                        Web Development
+                    </h3>
+
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                    </ul>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <h3>
+                        AI & Data
+                    </h3>
+
+                    <ul>
+                        <li>AI Fundamentals</li>
+                        <li>Machine Learning Basics</li>
+                        <li>Data Analysis Fundamentals</li>
+                    </ul>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <h3>
+                        Tools
+                    </h3>
+
+                    <ul>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                        <li>Microsoft Office</li>
+                    </ul>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- LEADERSHIP -->
+        <section class="section" aria-labelledby="leadership-title">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    LEADERSHIP
+                </p>
+
+                <h2 id="leadership-title">
+                    Leadership & Experience
+                </h2>
+
+            </div>
+
+
+            <div class="experience-grid">
+
+                <article class="experience-card">
+
+                    <p class="experience-tag">
+                        2026 — PRESENT
+                    </p>
+
+                    <h3>
+                        Unstop Campus Champion
+                    </h3>
+
+                    <p>
+                        Contributing to student engagement and helping
+                        students discover competitions, internships,
+                        learning opportunities and career-focused
+                        initiatives.
+                    </p>
+
+                </article>
+
+
+                <article class="experience-card">
+
+                    <p class="experience-tag">
+                        2026 — PRESENT
+                    </p>
+
+                    <h3>
+                        Techfest IIT Bombay Campus Ambassador
+                    </h3>
+
+                    <p>
+                        Participating in student outreach and promoting
+                        technology, innovation and learning opportunities
+                        among the student community.
+                    </p>
+
+                </article>
+
+
+                <article class="experience-card">
+
+                    <p class="experience-tag">
+                        ENTREPRENEURSHIP
+                    </p>
+
+                    <h3>
+                        Startup & Incubation Team Lead
+                    </h3>
+
+                    <p>
+                        Contributing to entrepreneurship and innovation
+                        activities focused on startups, ideas and student
+                        innovation.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section class="section" aria-labelledby="projects-title">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    PROJECTS
+                </p>
+
+                <h2 id="projects-title">
+                    Featured Projects
+                </h2>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+                <article class="project-card featured-project">
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                    <p class="experience-tag">
+                        AI & HEALTHCARE
+                    </p>
+
+                    <h3>
+                        MediAI
+                    </h3>
+
+                    <p>
+                        An AI-powered smart healthcare and hospital
+                        management platform designed to help users
+                        understand symptoms, assess urgency, identify
+                        suitable specialists and discover suitable
+                        hospitals.
+                    </p>
+
+                    <div class="tech-list">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>AI</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                    <p class="experience-tag">
+                        WEB DEVELOPMENT
+                    </p>
+
+                    <h3>
+                        Rural Light Initiative
+                    </h3>
+
+                    <p>
+                        A web-based initiative focused on addressing
+                        challenges faced by rural communities through
+                        technology and presenting structured solutions
+                        and information.
+                    </p>
+
+                    <div class="tech-list">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CERTIFICATIONS -->
+        <section class="section" aria-labelledby="certifications-title">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    CERTIFICATIONS
+                </p>
+
+                <h2 id="certifications-title">
+                    Learning & Certifications
+                </h2>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+                <article class="skill-card">
+
+                    <h3>
+                        Microsoft
+                    </h3>
+
+                    <p>
+                        Microsoft Azure AI Fundamentals
+                    </p>
+
+                    <p>
+                        Microsoft AI Skills Fest — 5-Day Program
+                    </p>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <h3>
+                        UiPath
+                    </h3>
+
+                    <p>
+                        UiPath Academy Certifications
+                    </p>
+
+                    <p>
+                        Learning automation and emerging technology
+                        concepts.
+                    </p>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <h3>
+                        Entrepreneurship
+                    </h3>
+
+                    <p>
+                        Entrepreneurship and Innovation Certifications
+                    </p>
+
+                    <p>
+                        Exploring startup development and innovation.
+                    </p>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <h3>
+                        Project Learning
+                    </h3>
+
+                    <p>
+                        Kaggle Capstone Project Completion
+                    </p>
+
+                    <p>
+                        Practical learning through project-based
+                        development.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROFESSIONAL SKILLS -->
+        <section class="section" aria-labelledby="professional-title">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    STRENGTHS
+                </p>
+
+                <h2 id="professional-title">
+                    Professional Skills
+                </h2>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+                <article class="skill-card">
+
+                    <h3>
+                        Leadership
+                    </h3>
+
+                    <p>
+                        Experience working with student communities and
+                        leadership initiatives.
+                    </p>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <h3>
+                        Communication
+                    </h3>
+
+                    <p>
+                        Interested in effective communication, teamwork
+                        and student engagement.
+                    </p>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <h3>
+                        Problem Solving
+                    </h3>
+
+                    <p>
+                        Focused on understanding problems and developing
+                        practical technology-based solutions.
+                    </p>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <h3>
+                        Teamwork
+                    </h3>
+
+                    <p>
+                        Enjoy collaborating with students and working
+                        towards common goals.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CAREER INTERESTS -->
+        <section class="section" aria-labelledby="career-title">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    FUTURE
+                </p>
+
+                <h2 id="career-title">
+                    Career Interests
+                </h2>
+
+            </div>
+
+
+            <div class="about-preview">
+
+                <div>
+
+                    <p>
+                        I am interested in opportunities that allow me to
+                        combine programming, artificial intelligence,
+                        web development and innovation.
+                    </p>
+
+                    <p>
+                        I am particularly interested in AI, web development,
+                        automation, startups and technology innovation.
+                    </p>
+
+                </div>
+
+
+                <aside
+                    class="quick-stats"
+                    aria-label="Career interests">
+
+                    <div>
+                        <strong>AI</strong>
+                        <span>Artificial Intelligence</span>
+                    </div>
+
+                    <div>
+                        <strong>WEB</strong>
+                        <span>Web Development</span>
+                    </div>
+
+                    <div>
+                        <strong>START</strong>
+                        <span>Startups & Innovation</span>
+                    </div>
+
+                </aside>
+
+            </div>
+
+        </section>
+
+
+        <!-- DOWNLOAD CTA -->
+        <section class="cta" aria-labelledby="download-title">
+
+            <h2 id="download-title">
+                Want to Know More?
             </h2>
 
-            <ul>
-                <li>UiPath Certifications</li>
-                <li>Microsoft AI Skills Fest</li>
-                <li>AWS Academy</li>
-            </ul>
-
-        </section>
-
-
-        <section aria-labelledby="download-heading">
-
-            <h2 id="download-heading">
-                Resume Document
-            </h2>
-
             <p>
-                You can download my complete resume below.
+                Download my complete resume for a detailed overview of
+                my education, skills, projects and experience.
             </p>
 
-            <a href="documents/resume.pdf" download>
-                Download Resume PDF
+            <a
+                href="documents/resume.pdf"
+                class="button"
+                download>
+                Download Resume
             </a>
 
         </section>
@@ -170,15 +773,55 @@
     </main>
 
 
-    <footer>
+    <!-- FOOTER -->
+    <footer class="site-footer">
 
-        <p>
-            &copy; 2026 Shaik Sana Tabassum.
+        <div>
+
+            <p>
+                <strong>
+                    Shaik Sana Tabassum
+                </strong>
+            </p>
+
+            <p>
+                Computer Science Engineering Student
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <a
+                href="https://www.linkedin.com/in/shaik-sana-tabassum-b547343a9"
+                target="_blank"
+                rel="noopener noreferrer">
+                LinkedIn
+            </a>
+
+            <a
+                href="https://github.com/sanatabassumshaik"
+                target="_blank"
+                rel="noopener noreferrer">
+                GitHub
+            </a>
+
+            <a href="mailto:sanatabassumshaik55@gmail.com">
+                Email
+            </a>
+
+        </div>
+
+
+        <p class="copyright">
+            © 2026 Shaik Sana Tabassum. All rights reserved.
         </p>
 
     </footer>
 
 
+    <!-- JAVASCRIPT -->
     <script src="js/script.js"></script>
 
 </body>
